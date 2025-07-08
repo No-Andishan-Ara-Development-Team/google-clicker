@@ -2,7 +2,7 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $query = urlencode($_POST['query']);
     $count = intval($_POST['count']);
-    $position = intval($_POST['position']) - 1; // چون index آرایه‌ها از 0 شروع می‌شه
+    $position = intval($_POST['position']) - 1; //  آرایه‌ها از 0 شروع می‌شه
 
     $searchUrl = "http://google.com/search?q=$query";
 
