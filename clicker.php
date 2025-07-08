@@ -4,7 +4,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $count = intval($_POST['count']);
     $position = intval($_POST['position']) - 1; //  آرایه‌ها از 0 شروع می‌شه
 
-    $searchUrl = "http://google.com/search?q=$query";
+    $searchUrl = "http://google.com/search?q=$query"; //سرچ انجین مورد نظر
 
     echo "<h2>شروع کلیک‌ها...</h2>";
 
